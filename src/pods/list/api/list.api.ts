@@ -9,7 +9,7 @@ export const getMemberList = async (
   const { data } = await Axios.get(`${url}/${organization}`, {
     headers: {
       'Access-Control-Allow-Origin':
-        'https://mavv-cloud-front-to-back.herokuapp.com',
+        'https://deployment-docker-heroku-front.herokuapp.com/',
     },
   });
   return data;
